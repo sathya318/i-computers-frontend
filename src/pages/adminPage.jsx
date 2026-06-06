@@ -12,7 +12,7 @@ export default function AdminPage(){
      </div>
            <div className="w-full h-[400px] text-white text-2xl flex flex-col" >
               
-              <Link to="/admin"><LuClipboardList />Orders</Link>
+              <Link to="/admin"className=""><LuClipboardList />Orders</Link>
                <Link to="/admin/products"><LuBoxes />Products</Link>
                <Link to="/admin/users"><LuUsers />Users</Link>
                <Link to="/admin/reviews"><MdOutlineRateReview />Reviews</Link>
